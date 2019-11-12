@@ -4,6 +4,7 @@ import mimetypes
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 # def to send mail
 def send_email(addr_from, password, addr_to):
     msg_subj = input("Subject: ")  # subject of message
